@@ -2,7 +2,7 @@ import os
 
 
 class Config:
-    TELEGRAM_TOKEN = os.getenv("6594755921:AAG5VllA7HOmWc2OVRUwTSEnPUHh_60V7-Y")
+    TELEGRAM_TOKEN = os.getenv("")
     PORT = os.getenv("TELEGRAM_BOT_PORT", 5000)
     TELEGRAM_API = "https://api.telegram.org"
     OPENAI_TOKEN = os.getenv("OPENAI_TOKEN")
